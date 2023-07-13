@@ -21,6 +21,11 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
+
+	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.keycloak:keycloak-spring-boot-starter:12.0.2")
+	implementation("org.springframework.boot:spring-boot-starter-security:2.4.0")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
